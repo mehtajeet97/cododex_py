@@ -4,7 +4,7 @@ weight = 75
 height = 1.77
 
 # Calculate using formula for BMI
-bmi = weight/(height ** height)
+bmi = weight/(height ** 2)
 
 # Print Output
 print(bmi)
