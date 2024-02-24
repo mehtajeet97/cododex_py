@@ -1,3 +1,4 @@
+# Line-by-line pattern created
 print('       1')
 print('     2 3')
 print('   4 5 6')
