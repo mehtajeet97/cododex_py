@@ -1,4 +1,4 @@
-# Line-by-line pattern created
+# Pattern created by using print statemnet line after line
 print('       1')
 print('     2 3')
 print('   4 5 6')
