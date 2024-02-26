@@ -1,5 +1,7 @@
+# Initiated Houses as variables with value zero at the start
 gryffindor = 0; slytherin = 0; ravenclaw = 0; hufflepuff = 0
 
+# Points allocated based on Answers to Quiz questions
 answer1 = int(input("Q1) Do you like Dawn or Dusk?\n 1) Dawn\n 2) Dusk\n"))
 if answer1 == 1:
     gryffindor += 1
@@ -34,6 +36,7 @@ elif answer3 == 4:
 else:
     print("Wrong Input")
 
+# House announced based on the final score
 if gryffindor > slytherin and gryffindor > hufflepuff and gryffindor > ravenclaw:
     print("Gryffindor!!!") 
 elif slytherin > gryffindor and slytherin > hufflepuff and slytherin > ravenclaw:
