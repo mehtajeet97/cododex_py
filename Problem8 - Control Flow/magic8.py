@@ -2,23 +2,23 @@ import random
 
 num = random.randint(1, 9)
 
-question = input("Ask any Yes or No type question and await your Fortune :")
+question = input("Question : ")
 
 if num == 1:
-    print("Yes - definitely.")
+    print("Magic 8 Ball : Yes - definitely.")
 elif num == 2:
-    print("It is decidedly so.")
+    print("Magic 8 Ball : It is decidedly so.")
 elif num == 3:
-    print("Without a doubt.")
+    print("Magic 8 Ball : Without a doubt.")
 elif num == 4:
-    print("Reply hazy, try again.")
+    print("Magic 8 Ball : Reply hazy, try again.")
 elif num == 5:
-    print("Ask again later.")
+    print("Magic 8 Ball : Ask again later.")
 elif num == 6:
-    print("Better not tell you now.")
+    print("Magic 8 Ball : Better not tell you now.")
 elif num == 7:
-    print("My sources say no.")
+    print("Magic 8 Ball : My sources say no.")
 elif num == 8:
-    print("Outlook not so good.")
+    print("Magic 8 Ball : Outlook not so good.")
 else:
-    print("Very doubtful.")
+    print("Magic 8 Ball : Very doubtful.")
